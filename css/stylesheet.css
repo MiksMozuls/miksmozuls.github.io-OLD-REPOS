@@ -1,12 +1,27 @@
-body {
- background-image: url("https://i.pinimg.com/originals/90/cd/dc/90cddc7eeddbac6b17b4e25674e9e971.jpg");
+body{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.top{
+	width:800px;
+	background:green;
+
+}
+.leftbox{
+	width:200px;
+	background: red;
+	float:left;
 
 }
 
-h1{
-	color:red;
+.mainbox{
+	width:400px;
+	background: yellow;
+	float:left;
 }
-h3{
-    color:white;
 
+.rightbox{
+	width:200px;
+	background:purple;
+	float:left;
 }
